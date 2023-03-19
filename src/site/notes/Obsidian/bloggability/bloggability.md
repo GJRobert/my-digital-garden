@@ -86,6 +86,7 @@
 - 但什麼都可以新增
 - 太好了，transclude 的頁面內容都順利呈現！比 Mixa 強多了
 - 不過網站名稱、CSS 等可能還有得自訂，值得細細研究
-
+- 支援大量 Ob theme 實在太棒
+	- 還吃 ==Style Settings== 設定也太猛，真的是為了 Obsidian 而生
 
 </div></div>

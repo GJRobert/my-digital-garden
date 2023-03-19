@@ -51,7 +51,9 @@
 
 # Digital Garden
 
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/obsidian/bloggability/digital-garden/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+
 
 
 
@@ -59,7 +61,8 @@
 
 ## 實做
 
-安裝步驟大致照 [Initial Setup](https://github.com/oleeskild/obsidian-digital-garden#initial-setup)，但注意：
+### 安裝步驟
+大致照 [Initial Setup](https://github.com/oleeskild/obsidian-digital-garden#initial-setup)，但注意：
 1. GitHub 帳戶：同
 2. Vercel 帳戶：新建的時候會問說要把 Vercel 安裝在哪個 GitHub repo，我就先建一個空的然後弄進去
   e.g. `digital-garden`
@@ -68,9 +71,14 @@
 4. 取得 token，可設為 `No expiration`，其他設定不用改
   → `Generate`
 5. 安裝 [Digital Garden](obsidian://show-plugin?id=digitalgarden)，然後設定，貼入 token
-6. 新增個頁面，裡面要有 `dg-home` 及 `dg-publish` 兩個 front matter
+6. 新增個[[Obsidian/Digital Garden Home\|頁面]]，裡面要有 `dg-home` 及 `dg-publish` 兩個 front matter
 7. ==Command Palette== `Publish Single Note` ✅（我的 Gmail 還會收到更新通知 😆）
 8. 成功了，Vercel 網站上看到推送上去的頁面了！
+
+### 後續建構
+- 一開始的頁面是最陽春的，什麼附加功能都沒有
+- 但什麼都可以新增
+- 太好了，transclude 的頁面內容都順利呈現！比 Mixa 強多了
 
 ## 觀感
 - 似乎比 [[Mixa\|Mixa]] 強多

@@ -99,8 +99,9 @@
 - [ ] 批次加入 `dg-publish` 
 
 ## 問題
-- [ ] 但並沒有 blog 功能 XD
+- [x] 但並沒有 blog 功能 XD #勉強解決
   → 想到找個能自動產生最近更新檔案列表的 plugin ☞ [Vault Changelog](obsidian://show-plugin?id=obsidian-vault-changelog) ← 不過問題是它無法被 `dg-publish`，因為它的 front matter 都會被覆寫 XD
+  - 哇！還好可以開一個頁面叫 [[blog/blog\|blog]]，transclude [[changelog\|changelog]] 的內容，然後 publish 上 Digital Garden，可以耶！😢 這樣勉強算有個簡單的最新 log 了！
 
 ## 其他
 - [ ] 什麼是「digital garden」？

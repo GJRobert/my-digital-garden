@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Obsidian/bloggability/Digital Garden/","created":"2023-03-19T23:40:32.182+08:00","updated":"2023-03-20T12:16:30.879+08:00"}
+{"dg-publish":true,"permalink":"/Obsidian/bloggability/Digital Garden/","created":"2023-03-19T23:40:32.182+08:00","updated":"2023-03-26T07:21:08.842+08:00"}
 ---
 
 
@@ -43,13 +43,34 @@
 - 自動切換日夜 theme #待研究
   官方說，[The Threshold](https://hermitage.utsob.me/) 的作者做了一個可切換日夜 theme 的按鈕 ☞ [topobon/001-floatingControls.njk at main · uroybd/topobon](https://github.com/uroybd/topobon/blob/main/src/site/_includes/components/user/common/footer/001-floatingControls.njk)
 - [ ] 批次加入 `dg-publish` 
-
-## 問題
-- [x] 但並沒有 blog 功能 XD #勉強解決
+- [x] blog 功能 XD #勉強解決
   → 想到找個能自動產生最近更新檔案列表的 plugin ☞ [Vault Changelog](obsidian://show-plugin?id=obsidian-vault-changelog) ← 不過問題是它無法被 `dg-publish`，因為它的 front matter 都會被覆寫 XD
   - 哇！還好可以開一個頁面叫 [[blog/blog\|blog]]，transclude [[changelog\|changelog]] 的內容，然後 publish 上 Digital Garden，可以耶！😢 這樣勉強算有個簡單的最新 log 了！
 
+## Todo
+- [ ] 有 RSS 嗎？
+	哇有耶 ☞ [Features](https://dg-docs.ole.dev/features/#atom-rss-feed)，要設定 base URL
+
+
+## 問題
+
 ## 其他
-- [ ] 什麼是「digital garden」？
-  好像是個筆記界/架站界的新術語……
-	- 喔，原來就是我這 20 年來在追尋及建構的「blog+wiki」嘛！！！☞ [什麼是 Digital Garden？](https://ithelp.ithome.com.tw/m/articles/10293438)；[How to set up your own digital garden - Ness Labs](https://nesslabs.com/digital-garden-set-up)
+- [x] 什麼是「digital garden」？
+  
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+
+
+好像是個筆記界/架站界的新術語……
+	- 喔，原來就是我這 20 年來在追尋及建構的「blog+wiki」嘛！！！☞ [什麼是 Digital Garden？](https://ithelp.ithome.com.tw/m/articles/10293438)；[How to set up your own digital garden - Ness Labs
+
+# 參考
+- [This website is not a blog | Aquiles Carattino](https://notes.aquiles.me/this_website_is_not_a_blog/)
+  <iframe src="https://notes.aquiles.me/this_website_is_not_a_blog/" width="1000px" height="1000px"></iframe>
+- [What is a Digital Garden?. Digital gardens have become a popular… | by Esteban Thilliez | Feb, 2023 | Medium](https://medium.com/@estebanthi/what-is-a-digital-garden-eeae89c7c483)
+  <iframe src="https://medium.com/@estebanthi/what-is-a-digital-garden-eeae89c7c483" width="1000px" height="1000px"></iframe>
+- [lyz-code/best-of-digital-gardens: Ranked list of awesome digital gardens / second brains](https://github.com/lyz-code/best-of-digital-gardens) 還列出了幾十個有在 GitHub 上分享原始碼的 digital garden
+	- 哈我的 DW 也不差吧
+
+</div></div>
+](https://nesslabs.com/digital-garden-set-up)
